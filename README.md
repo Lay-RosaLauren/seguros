@@ -3,6 +3,10 @@
 # Aplicação exemplo para demonstração de testes automatizados escritos com [Cypress](https://cypress.io).
 # Multiplique seus casos de teste com Cypress com o uso de fixtures
 
+<img width="207" alt="end-to-end" src="https://github.com/Lay-RosaLauren/seguros/assets/86569498/c7fad664-3ddc-44f0-a0c6-4f176e158bba">
+
+
+
 ___
 
 ## Pré-requisitos
@@ -39,3 +43,4 @@ ___
 Material de estudos "Lay-RosaLauren"
 
 Feito com ❤️ por [Walmyr](https://walmyr.dev).
+My master teacher 👨‍🏫
