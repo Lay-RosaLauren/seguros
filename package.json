@@ -1,0 +1,35 @@
+{
+  "name": "seguros",
+  "version": "1.0.0",
+  "description": "Seguros ABC",
+  "main": "cypress.config.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:open:professora": "cypress open --env profissao=professora --config excludeSpecPattern=cypress/e2e/segurosV2.cy.js",
+    "cy:open:programadora": "cypress open --env profissao=programadora --config excludeSpecPattern=cypress/e2e/segurosV2.cy.js",
+    "cy:open:arquiteta": "cypress open --env profissao=arquiteta --config excludeSpecPattern=cypress/e2e/segurosV2.cy.js",
+    "cy:open:taxista": "cypress open --env profissao=taxista --config excludeSpecPattern=cypress/e2e/segurosV2.cy.js",
+    "cy:open:dentista": "cypress open --env profissao=dentista --config excludeSpecPattern=cypress/e2e/segurosV2.cy.js",
+    "cy:open:medica": "cypress open --env profissao=medica --config excludeSpecPattern=cypress/e2e/segurosV2.cy.js",
+    "test": "npm run test:professora && npm run test:programadora && npm run test:arquiteta && npm run test:taxista && npm run test:dentista && npm run test:medica",
+    "test:v2": "cypress run --config excludeSpecPattern=cypress/e2e/seguros.cy.js",
+    "test:professora": "cypress run --env profissao=professora --config excludeSpecPattern=cypress/e2e/segurosV2.cy.js",
+    "test:programadora": "cypress run --env profissao=programadora --config excludeSpecPattern=cypress/e2e/segurosV2.cy.js",
+    "test:arquiteta": "cypress run --env profissao=arquiteta --config excludeSpecPattern=cypress/e2e/segurosV2.cy.js",
+    "test:taxista": "cypress run --env profissao=taxista --config excludeSpecPattern=cypress/e2e/segurosV2.cy.js",
+    "test:dentista": "cypress run --env profissao=dentista --config excludeSpecPattern=cypress/e2e/segurosV2.cy.js",
+    "test:medica": "cypress run --env profissao=medica --config excludeSpecPattern=cypress/e2e/segurosV2.cy.js"
+  },
+  "keywords": [
+    "testing",
+    "fixtures",
+    "web-testing",
+    "cypress-io",
+    "talking-about-testing"
+  ],
+  "author": "Walmyr <wlsf82@gmail.com> (https://walmyr.dev/)",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  }
+}
