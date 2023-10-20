@@ -1,0 +1,104 @@
+[
+  {
+    "profissao": "arquiteta",
+    "seguros": {
+      "vida": "be.checked",
+      "odontologico": "be.checked",
+      "carro": "be.checked",
+      "cyber": "be.checked",
+      "roubo": "be.checked"
+    },
+    "termos": {
+      "vida": "be.visible",
+      "odontologico": "be.visible",
+      "carro": "be.visible",
+      "cyber": "be.visible",
+      "roubo": "be.visible"
+    }
+  },
+  {
+    "profissao": "dentista",
+    "seguros": {
+      "vida": "be.checked",
+      "odontologico": "be.checked",
+      "carro": "be.checked",
+      "cyber": "be.checked",
+      "roubo": "be.checked"
+    },
+    "termos": {
+      "vida": "be.visible",
+      "odontologico": "be.visible",
+      "carro": "be.visible",
+      "cyber": "be.visible",
+      "roubo": "be.visible"
+    }
+  },
+  {
+    "profissao": "medica",
+    "seguros": {
+      "vida": "be.checked",
+      "odontologico": "be.checked",
+      "carro": "be.checked",
+      "cyber": "be.checked",
+      "roubo": "be.checked"
+    },
+    "termos": {
+      "vida": "be.visible",
+      "odontologico": "be.visible",
+      "carro": "be.visible",
+      "cyber": "be.visible",
+      "roubo": "be.visible"
+    }
+  },
+  {
+    "profissao": "professora",
+    "seguros": {
+      "vida": "be.checked",
+      "odontologico": "be.checked",
+      "carro": "be.checked",
+      "cyber": "be.checked",
+      "roubo": "be.checked"
+    },
+    "termos": {
+      "vida": "be.visible",
+      "odontologico": "be.visible",
+      "carro": "be.visible",
+      "cyber": "be.visible",
+      "roubo": "be.visible"
+    }
+  },
+  {
+    "profissao": "programadora",
+    "seguros": {
+      "vida": "be.checked",
+      "odontologico": "be.checked",
+      "carro": "be.checked",
+      "cyber": "not.be.checked",
+      "roubo": "be.checked"
+    },
+    "termos": {
+      "vida": "be.visible",
+      "odontologico": "be.visible",
+      "carro": "be.visible",
+      "cyber": "not.exist",
+      "roubo": "be.visible"
+    }
+  },
+  {
+    "profissao": "taxista",
+    "seguros": {
+      "vida": "be.checked",
+      "odontologico": "be.checked",
+      "carro": "be.checked",
+      "cyber": "be.checked",
+      "roubo": "not.be.checked"
+    },
+    "termos": {
+      "vida": "be.visible",
+      "odontologico": "be.visible",
+      "carro": "be.visible",
+      "cyber": "be.visible",
+      "roubo": "not.exist"
+    }
+  }
+]
